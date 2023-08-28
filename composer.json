@@ -8,7 +8,7 @@
     },
     "require": {
         "php": ">=7.0",
-        "mpdf/mpdf": "^8.0"
+        "mpdf/mpdf": "dev-abdi"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +30,12 @@
             }
         }
     },
+    "repositories": [
+        {
+            "url": "https://github.com/f4rixx/mpdf",
+            "type": "git"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^7.4",
         "orchestra/testbench": "^3.7"
